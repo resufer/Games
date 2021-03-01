@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 600px;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+canvas {
+  
+  background: url('./img/space.png') 50% 50% / cover;
+}
