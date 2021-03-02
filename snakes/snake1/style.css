@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 100px;
+}
+
+.output {
+  display: block;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.field {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  display: grid;  
+  grid-template-rows:  repeat(20, 25px);
+  grid-template-columns: repeat(20, 25px);
+  background-color: bisque;
+}
+
+.excel {
+  width: 25px;
+  height: 25px;
+  background-color: black;
+}
+
+.snakeBody {
+  background-color: white;
+}
+
+.snakeHead {
+  background-color: red;
+}
+
+.mouse {
+  background-color: greenyellow;
+}
