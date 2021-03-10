@@ -6,3 +6,4 @@
 
 ## 2) Snakes:
  - Snake1
+ - Snake2 - on canvas
